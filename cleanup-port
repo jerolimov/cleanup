@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+.PHONY: clean update
+
+clean: update
+	sudo port clean --all
+	sudo port uninstall leaves
+
+update:
+	sudo port selfupdate
+	sudo port upgrade outdated
+
