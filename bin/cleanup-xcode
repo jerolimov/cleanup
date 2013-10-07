@@ -1,9 +1,9 @@
 #!/bin/bash
 
-echo "Will remove:"
-ls -ld "$HOME/Library/Application Support/iPhone Simulator/*"
-ls -ld "$HOME/Library/Developer/Xcode/DerivedData/*"
+echo
+echo "Will remove iPhone Simulators and and Xcode DerivedData:"
+echo
 
-rm -rf "$HOME/Library/Application Support/iPhone Simulator/*"
-rm -rf "$HOME/Library/Developer/Xcode/DerivedData/*"
+rm -rf "$HOME/Library/Application Support/iPhone Simulator"
+rm -rf "$HOME/Library/Developer/Xcode/DerivedData"
 
