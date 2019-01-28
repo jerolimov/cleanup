@@ -1,3 +1,4 @@
 
 rm -rfv ~/.npm
+rm -rfv ~/Library/Caches/Yarn
 
